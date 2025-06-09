@@ -6,6 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
             url: "https://adrienrenggli.github.io/2048/",
             description: "A single-player sliding tile puzzle.",
             icon: "images/2048.png"
+        }, {
+            name: "Minesweeper",
+            url: "https://adrienrenggli.github.io/Minesweeper/",
+            description: "A classic puzzle game where players uncover squares on a grid.",
+            faIcon: "fas fa-land-mine-on"
         }
         ],
         apps: [
