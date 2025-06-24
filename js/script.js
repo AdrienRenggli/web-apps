@@ -11,6 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
             url: "https://adrienrenggli.github.io/Minesweeper/",
             description: "A classic puzzle game where players uncover squares on a grid.",
             faIcon: "fas fa-land-mine-on"
+        }, {
+            name: "Tetris",
+            url: "https://adrienrenggli.github.io/Tetris/",
+            description: "Puzzle game where players strategically rotate and stack falling shapes. (keyboard required)",
+            icon: "images/Tetris.png"
         }
         ],
         apps: [
