@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
         li.appendChild(info);
 
         li.addEventListener("click", () => {
-        window.location.href = app.url;
+        window.open(app.url, "_blank");
         });
 
         listElement.appendChild(li);
