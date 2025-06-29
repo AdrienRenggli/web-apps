@@ -24,6 +24,12 @@ document.addEventListener("DOMContentLoaded", () => {
             url: "https://adrienrenggli.github.io/Morse-training/",
             description: "Learn, practice and translate morse code.",
             faIcon: "fas fa-tower-cell"
+        },
+        {
+            name: "Conway's Game of Life",
+            url: "https://adrienrenggli.github.io/Game-Of-Life/",
+            description: "Game of Life is a cellular automaton where simple rules determine birth, survival, or death.",
+            icon: "images/GoL.gif"
         }
         ]
     };
