@@ -20,6 +20,7 @@ In script.js, modify the webApps object to add your own items. You can use eithe
 
 - icon (for image files: "images/my-icon.png")
 - faIcon (for Font Awesome icons: "fas fa-chess" or "fab fa-github")
+- emoji
 
 ```javascript
 {
@@ -36,5 +37,14 @@ or
     url: "https://github.com",
     description: "Version control and collaboration.",
     faIcon: "fab fa-github"
+}
+```
+or
+```javascript
+{
+    name: "GitHub",
+    url: "https://github.com",
+    description: "Version control and collaboration.",
+    emoji: "🙂"
 }
 ```

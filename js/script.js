@@ -10,12 +10,17 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "Minesweeper",
             url: "https://adrienrenggli.github.io/Minesweeper/",
             description: "A classic puzzle game where players uncover squares on a grid.",
-            faIcon: "fas fa-land-mine-on"
+            emoji: "🚩"
         }, {
             name: "Tetris",
             url: "https://adrienrenggli.github.io/Tetris/",
             description: "Puzzle game where players strategically rotate and stack falling shapes. (keyboard required)",
             icon: "images/Tetris.png"
+        }, {
+            name: "Snake",
+            url: "https://adrienrenggli.github.io/Snake/",
+            description: "Controls a growing snake that must navigate a grid to collect food while avoiding collisions.",
+            emoji: "🐍"
         }
         ],
         apps: [
@@ -39,14 +44,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Icon/Image
         if (app.icon) {
-        const img = document.createElement("img");
-        img.src = app.icon;
-        img.alt = `${app.name} icon`;
-        li.appendChild(img);
+            const img = document.createElement("img");
+            img.src = app.icon;
+            img.alt = `${app.name} icon`;
+            li.appendChild(img);
         } else if (app.faIcon) {
-        const icon = document.createElement("i");
-        icon.className = app.faIcon + " app-fa-icon";
-        li.appendChild(icon);
+            const icon = document.createElement("i");
+            icon.className = app.faIcon + " app-fa-icon";
+            li.appendChild(icon);
+        } else if (app.emoji) {
+            const emojiSpan = document.createElement("span");
+            emojiSpan.textContent = app.emoji;
+            emojiSpan.classList.add("emoji-icon");
+            li.appendChild(emojiSpan);
         }
 
         // Info block

@@ -81,6 +81,11 @@ li i.app-fa-icon {
   justify-content: center;
 }
 
+.emoji-icon {
+    font-size: 2rem;
+    margin-right: 15px;
+}
+
 footer {
     margin-top: 2rem; 
     text-align: center; 
