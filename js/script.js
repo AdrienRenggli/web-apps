@@ -35,6 +35,12 @@ document.addEventListener("DOMContentLoaded", () => {
             url: "https://adrienrenggli.github.io/Game-Of-Life/",
             description: "Game of Life is a cellular automaton where simple rules determine birth, survival, or death.",
             icon: "images/GoL.gif"
+        },
+        {
+            name: "Journal d'un chef",
+            url: "https://adrienrenggli.github.io/Cook-Book/",
+            description: "Discover, create and share recipes.",
+            faIcon: "fa-solid fa-kitchen-set"
         }
         ]
     };
