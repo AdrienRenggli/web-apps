@@ -21,6 +21,11 @@ document.addEventListener("DOMContentLoaded", () => {
             url: "https://adrienrenggli.github.io/Snake/",
             description: "Controls a growing snake that must navigate a grid to collect food while avoiding collisions.",
             emoji: "🐍"
+        }, {
+            name:"Flappy Bird",
+            url: "https://adrienrenggli.github.io/Flappy-Bird/",
+            description: "Avoid the pipes and fly. (Bad UI because I can't draw.)",
+            emoji: "🕊️"
         }
         ],
         apps: [
